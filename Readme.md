@@ -4,6 +4,7 @@ Run the following commands in cmd
 
 ```shell
   dir /s /B *.java > sources.txt
+  mkdir classes
   javac -cp ".;./atdd-v2-trainee-all.jar" -encoding utf8 -d "./classes" @sources.txt
 ```
 

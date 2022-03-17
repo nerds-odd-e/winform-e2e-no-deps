@@ -1,15 +1,20 @@
 package com.odde.atddv2.nodeps;
 
+import com.odde.atddv2.nodeps.entity.User;
 import com.odde.atddv2.nodeps.page.HomePage;
 import com.odde.atddv2.nodeps.page.WelcomePage;
+import com.odde.atddv2.nodeps.repo.UserRepo;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import io.cucumber.java.zh_cn.假如;
 import io.cucumber.java.zh_cn.当;
 import io.cucumber.java.zh_cn.那么;
 import io.cucumber.spring.CucumberContextConfiguration;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootContextLoader;
 import org.springframework.test.context.ContextConfiguration;
+
+import java.net.MalformedURLException;
 
 @ContextConfiguration(classes = {CucumberConfiguration.class}, loader = SpringBootContextLoader.class)
 @CucumberContextConfiguration
@@ -24,16 +29,16 @@ public class ApplicationSteps {
     @Autowired
     private WinForm winForm;
 
-//    @Autowired
-//    private UserRepo userRepo;
-//
-//    @假如("存在用户名为{string}和密码为{string}的用户")
-//    public void 存在用户名为和密码为的用户(String userName, String password) {
-//        userRepo.save(new User().setUserName(userName).setPassword(password));
-//    }
+    @Autowired
+    private UserRepo userRepo;
+
+    @假如("存在用户名为{string}和密码为{string}的用户")
+    public void 存在用户名为和密码为的用户(String userName, String password) {
+        userRepo.save(new User().setUserName(userName).setPassword(password));
+    }
 
     @当("以用户名为{string}和密码为{string}登录时")
-    public void 以用户名为和密码为登录时(String userName, String password) {
+    public void 以用户名为和密码为登录时(String userName, String password) throws MalformedURLException {
         homePage.login(userName, password);
     }
 
@@ -48,19 +53,19 @@ public class ApplicationSteps {
         homePage.shouldHaveMessage(message);
     }
 
-    //    @Before(order = 1)
-//    public void clearDB() {
-//        userRepo.deleteAll();
-//    }
-//
+    @Before(order = 1)
+    public void clearDB() {
+        userRepo.deleteAll();
+    }
+
     @After
     public void close() {
         winForm.close();
     }
 
     @Before("@ui-login")
-    public void uiLogin() {
-//        存在用户名为和密码为的用户("j", "j");
+    public void uiLogin() throws MalformedURLException {
+        存在用户名为和密码为的用户("j", "j");
         以用户名为和密码为登录时("j", "j");
         登录成功("j");
     }

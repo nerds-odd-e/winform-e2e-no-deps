@@ -1,13 +1,8 @@
 package com.odde.atddv2.nodeps.entity;
 
-import lombok.Data;
-import lombok.experimental.Accessors;
-
 import javax.persistence.*;
 
-@Data
 @Entity
-@Accessors(chain = true)
 @Table(name = "users")
 public class User {
 
@@ -16,4 +11,30 @@ public class User {
     private long id;
 
     private String userName, password;
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public User setUserName(String userName) {
+        this.userName = userName;
+        return this;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public User setPassword(String password) {
+        this.password = password;
+        return this;
+    }
 }

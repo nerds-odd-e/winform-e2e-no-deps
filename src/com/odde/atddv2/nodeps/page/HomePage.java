@@ -1,9 +1,10 @@
 package com.odde.atddv2.nodeps.page;
 
 import com.odde.atddv2.nodeps.WinForm;
-import lombok.SneakyThrows;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+
+import java.net.MalformedURLException;
 
 @Component
 public class HomePage {
@@ -11,8 +12,7 @@ public class HomePage {
     @Autowired
     public WinForm winForm;
 
-    @SneakyThrows
-    public void login(String userName, String password) {
+    public void login(String userName, String password) throws MalformedURLException {
         winForm.inputTextById("textBox_userName", userName);
         winForm.inputTextById("textBox_password", password);
         winForm.clickById("userButton_login");

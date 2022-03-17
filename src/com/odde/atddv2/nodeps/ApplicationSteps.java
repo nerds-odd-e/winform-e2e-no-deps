@@ -1,9 +1,7 @@
 package com.odde.atddv2.nodeps;
 
-import com.odde.atddv2.nodeps.entity.User;
 import com.odde.atddv2.nodeps.page.HomePage;
 import com.odde.atddv2.nodeps.page.WelcomePage;
-import com.odde.atddv2.nodeps.repo.UserRepo;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.zh_cn.假如;
@@ -29,12 +27,12 @@ public class ApplicationSteps {
     @Autowired
     private WinForm winForm;
 
-    @Autowired
-    private UserRepo userRepo;
+//    @Autowired
+//    private UserRepo userRepo;
 
     @假如("存在用户名为{string}和密码为{string}的用户")
     public void 存在用户名为和密码为的用户(String userName, String password) {
-        userRepo.save(new User().setUserName(userName).setPassword(password));
+//        userRepo.save(new User().setUserName(userName).setPassword(password));
     }
 
     @当("以用户名为{string}和密码为{string}登录时")
@@ -55,7 +53,7 @@ public class ApplicationSteps {
 
     @Before(order = 1)
     public void clearDB() {
-        userRepo.deleteAll();
+//        userRepo.deleteAll();
     }
 
     @After

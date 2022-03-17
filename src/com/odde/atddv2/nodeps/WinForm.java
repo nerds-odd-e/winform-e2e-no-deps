@@ -26,7 +26,7 @@ public class WinForm {
 
     private WiniumDriver windowsDriver = null;
     private String currentWindow;
-    @Value("${app.path:C:\\ClientServerProject\\软件系统客户端模版\\bin\\Debug\\软件系统客户端模版.exe}")
+    @Value("${app.path:C:\\Users\\Administrator\\Downloads\\winform_new\\Debug\\软件系统客户端模版.exe}")
     private String appPath;
 
     public void inputTextById(String id, String text) {

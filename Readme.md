@@ -13,6 +13,6 @@ Run the following commands in cmd
 Run the following commands in cmd
 
 ```shell
-  java -cp ".;./atdd-v2-trainee-all.jar;./resources;./classes" io.cucumber.core.cli.Main ./resources/ice/ice_mock_server.feature --glue "com.odde.atddv2.nodeps" --glue "com.github.leeonky"
+  java -cp ".;./atdd-v2-trainee-all.jar;./resources;./classes" io.cucumber.core.cli.Main ./resources/ui/login.feature --glue "com.odde.atddv2.nodeps" --glue "com.github.leeonky"
 ```
 

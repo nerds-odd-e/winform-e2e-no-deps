@@ -1,0 +1,237 @@
+﻿[致命] 2022-03-17 13:25:57.678 thread:[12] NetComplexClient : 同步数据发送异常： : 错误信息：未将对象引用设置到对象的实例。
+错误源：HslCommunication
+错误堆栈：   在 HslCommunication.Core.Net.NetworkXBase.SendBytesAsync(AppSession session, Byte[] content)
+错误类型：System.NullReferenceException
+错误方法：Void SendBytesAsync(HslCommunication.Core.Net.AppSession, Byte[])
+/=================================================[    Exception    ]================================================/
+[致命] 2022-03-17 13:25:58.647 thread:[10] NetComplexClient : 错误信息：由于目标计算机积极拒绝，无法连接。 127.0.0.1:17652
+错误源：System
+错误堆栈：   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 HslCommunication.Core.Net.NetworkBase.ConnectCallBack(IAsyncResult ar)
+错误类型：System.Net.Sockets.SocketException
+错误方法：Void InternalEndConnect(System.IAsyncResult)
+/=================================================[    Exception    ]================================================/
+[调试] 2022-03-17 13:25:58.647 thread:[11] NetComplexClient : Connected Failed, Times: 1
+[致命] 2022-03-17 13:25:58.693 thread:[12] NetComplexClient : 同步数据发送异常： : 错误信息：未将对象引用设置到对象的实例。
+错误源：HslCommunication
+错误堆栈：   在 HslCommunication.Core.Net.NetworkXBase.SendBytesAsync(AppSession session, Byte[] content)
+错误类型：System.NullReferenceException
+错误方法：Void SendBytesAsync(HslCommunication.Core.Net.AppSession, Byte[])
+/=================================================[    Exception    ]================================================/
+[致命] 2022-03-17 13:25:59.710 thread:[12] NetComplexClient : 同步数据发送异常： : 错误信息：未将对象引用设置到对象的实例。
+错误源：HslCommunication
+错误堆栈：   在 HslCommunication.Core.Net.NetworkXBase.SendBytesAsync(AppSession session, Byte[] content)
+错误类型：System.NullReferenceException
+错误方法：Void SendBytesAsync(HslCommunication.Core.Net.AppSession, Byte[])
+/=================================================[    Exception    ]================================================/
+[致命] 2022-03-17 13:26:00.725 thread:[12] NetComplexClient : 同步数据发送异常： : 错误信息：未将对象引用设置到对象的实例。
+错误源：HslCommunication
+错误堆栈：   在 HslCommunication.Core.Net.NetworkXBase.SendBytesAsync(AppSession session, Byte[] content)
+错误类型：System.NullReferenceException
+错误方法：Void SendBytesAsync(HslCommunication.Core.Net.AppSession, Byte[])
+/=================================================[    Exception    ]================================================/
+[致命] 2022-03-17 13:26:01.741 thread:[12] NetComplexClient : 同步数据发送异常： : 错误信息：未将对象引用设置到对象的实例。
+错误源：HslCommunication
+错误堆栈：   在 HslCommunication.Core.Net.NetworkXBase.SendBytesAsync(AppSession session, Byte[] content)
+错误类型：System.NullReferenceException
+错误方法：Void SendBytesAsync(HslCommunication.Core.Net.AppSession, Byte[])
+/=================================================[    Exception    ]================================================/
+[致命] 2022-03-17 13:26:03.773 thread:[12] NetComplexClient : 同步数据发送异常： : 错误信息：未将对象引用设置到对象的实例。
+错误源：HslCommunication
+错误堆栈：   在 HslCommunication.Core.Net.NetworkXBase.SendBytesAsync(AppSession session, Byte[] content)
+错误类型：System.NullReferenceException
+错误方法：Void SendBytesAsync(HslCommunication.Core.Net.AppSession, Byte[])
+/=================================================[    Exception    ]================================================/
+[致命] 2022-03-17 13:26:05.818 thread:[12] NetComplexClient : 同步数据发送异常： : 错误信息：未将对象引用设置到对象的实例。
+错误源：HslCommunication
+错误堆栈：   在 HslCommunication.Core.Net.NetworkXBase.SendBytesAsync(AppSession session, Byte[] content)
+错误类型：System.NullReferenceException
+错误方法：Void SendBytesAsync(HslCommunication.Core.Net.AppSession, Byte[])
+/=================================================[    Exception    ]================================================/
+[致命] 2022-03-17 13:26:07.835 thread:[12] NetComplexClient : 同步数据发送异常： : 错误信息：未将对象引用设置到对象的实例。
+错误源：HslCommunication
+错误堆栈：   在 HslCommunication.Core.Net.NetworkXBase.SendBytesAsync(AppSession session, Byte[] content)
+错误类型：System.NullReferenceException
+错误方法：Void SendBytesAsync(HslCommunication.Core.Net.AppSession, Byte[])
+/=================================================[    Exception    ]================================================/
+[致命] 2022-03-17 13:26:09.852 thread:[12] NetComplexClient : 同步数据发送异常： : 错误信息：未将对象引用设置到对象的实例。
+错误源：HslCommunication
+错误堆栈：   在 HslCommunication.Core.Net.NetworkXBase.SendBytesAsync(AppSession session, Byte[] content)
+错误类型：System.NullReferenceException
+错误方法：Void SendBytesAsync(HslCommunication.Core.Net.AppSession, Byte[])
+/=================================================[    Exception    ]================================================/
+[致命] 2022-03-17 13:26:10.914 thread:[10] NetComplexClient : 错误信息：由于目标计算机积极拒绝，无法连接。 127.0.0.1:17652
+错误源：System
+错误堆栈：   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 HslCommunication.Core.Net.NetworkBase.ConnectCallBack(IAsyncResult ar)
+错误类型：System.Net.Sockets.SocketException
+错误方法：Void InternalEndConnect(System.IAsyncResult)
+/=================================================[    Exception    ]================================================/
+[调试] 2022-03-17 13:26:10.914 thread:[17] NetComplexClient : Connected Failed, Times: 2
+[致命] 2022-03-17 13:26:11.896 thread:[12] NetComplexClient : 同步数据发送异常： : 错误信息：未将对象引用设置到对象的实例。
+错误源：HslCommunication
+错误堆栈：   在 HslCommunication.Core.Net.NetworkXBase.SendBytesAsync(AppSession session, Byte[] content)
+错误类型：System.NullReferenceException
+错误方法：Void SendBytesAsync(HslCommunication.Core.Net.AppSession, Byte[])
+/=================================================[    Exception    ]================================================/
+[致命] 2022-03-17 13:26:13.928 thread:[12] NetComplexClient : 同步数据发送异常： : 错误信息：未将对象引用设置到对象的实例。
+错误源：HslCommunication
+错误堆栈：   在 HslCommunication.Core.Net.NetworkXBase.SendBytesAsync(AppSession session, Byte[] content)
+错误类型：System.NullReferenceException
+错误方法：Void SendBytesAsync(HslCommunication.Core.Net.AppSession, Byte[])
+/=================================================[    Exception    ]================================================/
+[致命] 2022-03-17 13:26:15.961 thread:[12] NetComplexClient : 同步数据发送异常： : 错误信息：未将对象引用设置到对象的实例。
+错误源：HslCommunication
+错误堆栈：   在 HslCommunication.Core.Net.NetworkXBase.SendBytesAsync(AppSession session, Byte[] content)
+错误类型：System.NullReferenceException
+错误方法：Void SendBytesAsync(HslCommunication.Core.Net.AppSession, Byte[])
+/=================================================[    Exception    ]================================================/
+[致命] 2022-03-17 13:26:17.975 thread:[12] NetComplexClient : 同步数据发送异常： : 错误信息：未将对象引用设置到对象的实例。
+错误源：HslCommunication
+错误堆栈：   在 HslCommunication.Core.Net.NetworkXBase.SendBytesAsync(AppSession session, Byte[] content)
+错误类型：System.NullReferenceException
+错误方法：Void SendBytesAsync(HslCommunication.Core.Net.AppSession, Byte[])
+/=================================================[    Exception    ]================================================/
+[致命] 2022-03-17 13:26:20.007 thread:[12] NetComplexClient : 同步数据发送异常： : 错误信息：未将对象引用设置到对象的实例。
+错误源：HslCommunication
+错误堆栈：   在 HslCommunication.Core.Net.NetworkXBase.SendBytesAsync(AppSession session, Byte[] content)
+错误类型：System.NullReferenceException
+错误方法：Void SendBytesAsync(HslCommunication.Core.Net.AppSession, Byte[])
+/=================================================[    Exception    ]================================================/
+[致命] 2022-03-17 13:26:22.054 thread:[12] NetComplexClient : 同步数据发送异常： : 错误信息：未将对象引用设置到对象的实例。
+错误源：HslCommunication
+错误堆栈：   在 HslCommunication.Core.Net.NetworkXBase.SendBytesAsync(AppSession session, Byte[] content)
+错误类型：System.NullReferenceException
+错误方法：Void SendBytesAsync(HslCommunication.Core.Net.AppSession, Byte[])
+/=================================================[    Exception    ]================================================/
+[致命] 2022-03-17 13:26:23.116 thread:[10] NetComplexClient : 错误信息：由于目标计算机积极拒绝，无法连接。 127.0.0.1:17652
+错误源：System
+错误堆栈：   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 HslCommunication.Core.Net.NetworkBase.ConnectCallBack(IAsyncResult ar)
+错误类型：System.Net.Sockets.SocketException
+错误方法：Void InternalEndConnect(System.IAsyncResult)
+/=================================================[    Exception    ]================================================/
+[调试] 2022-03-17 13:26:23.116 thread:[18] NetComplexClient : Connected Failed, Times: 3
+[致命] 2022-03-17 13:26:24.084 thread:[12] NetComplexClient : 同步数据发送异常： : 错误信息：未将对象引用设置到对象的实例。
+错误源：HslCommunication
+错误堆栈：   在 HslCommunication.Core.Net.NetworkXBase.SendBytesAsync(AppSession session, Byte[] content)
+错误类型：System.NullReferenceException
+错误方法：Void SendBytesAsync(HslCommunication.Core.Net.AppSession, Byte[])
+/=================================================[    Exception    ]================================================/
+[致命] 2022-03-17 13:26:26.116 thread:[12] NetComplexClient : 同步数据发送异常： : 错误信息：未将对象引用设置到对象的实例。
+错误源：HslCommunication
+错误堆栈：   在 HslCommunication.Core.Net.NetworkXBase.SendBytesAsync(AppSession session, Byte[] content)
+错误类型：System.NullReferenceException
+错误方法：Void SendBytesAsync(HslCommunication.Core.Net.AppSession, Byte[])
+/=================================================[    Exception    ]================================================/
+[致命] 2022-03-17 13:26:28.132 thread:[12] NetComplexClient : 同步数据发送异常： : 错误信息：未将对象引用设置到对象的实例。
+错误源：HslCommunication
+错误堆栈：   在 HslCommunication.Core.Net.NetworkXBase.SendBytesAsync(AppSession session, Byte[] content)
+错误类型：System.NullReferenceException
+错误方法：Void SendBytesAsync(HslCommunication.Core.Net.AppSession, Byte[])
+/=================================================[    Exception    ]================================================/
+[致命] 2022-03-17 13:26:30.147 thread:[12] NetComplexClient : 同步数据发送异常： : 错误信息：未将对象引用设置到对象的实例。
+错误源：HslCommunication
+错误堆栈：   在 HslCommunication.Core.Net.NetworkXBase.SendBytesAsync(AppSession session, Byte[] content)
+错误类型：System.NullReferenceException
+错误方法：Void SendBytesAsync(HslCommunication.Core.Net.AppSession, Byte[])
+/=================================================[    Exception    ]================================================/
+[致命] 2022-03-17 13:26:32.195 thread:[12] NetComplexClient : 同步数据发送异常： : 错误信息：未将对象引用设置到对象的实例。
+错误源：HslCommunication
+错误堆栈：   在 HslCommunication.Core.Net.NetworkXBase.SendBytesAsync(AppSession session, Byte[] content)
+错误类型：System.NullReferenceException
+错误方法：Void SendBytesAsync(HslCommunication.Core.Net.AppSession, Byte[])
+/=================================================[    Exception    ]================================================/
+[致命] 2022-03-17 13:26:34.225 thread:[12] NetComplexClient : 同步数据发送异常： : 错误信息：未将对象引用设置到对象的实例。
+错误源：HslCommunication
+错误堆栈：   在 HslCommunication.Core.Net.NetworkXBase.SendBytesAsync(AppSession session, Byte[] content)
+错误类型：System.NullReferenceException
+错误方法：Void SendBytesAsync(HslCommunication.Core.Net.AppSession, Byte[])
+/=================================================[    Exception    ]================================================/
+[致命] 2022-03-17 13:26:35.352 thread:[10] NetComplexClient : 错误信息：由于目标计算机积极拒绝，无法连接。 127.0.0.1:17652
+错误源：System
+错误堆栈：   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 HslCommunication.Core.Net.NetworkBase.ConnectCallBack(IAsyncResult ar)
+错误类型：System.Net.Sockets.SocketException
+错误方法：Void InternalEndConnect(System.IAsyncResult)
+/=================================================[    Exception    ]================================================/
+[调试] 2022-03-17 13:26:35.352 thread:[01] NetComplexClient : Client Close.
+[调试] 2022-03-17 13:26:36.541 thread:[19] NetComplexClient : Connected Failed, Times: 4
+[致命] 2022-03-17 13:32:52.516 thread:[12] NetComplexClient : 同步数据发送异常： : 错误信息：未将对象引用设置到对象的实例。
+错误源：HslCommunication
+错误堆栈：   在 HslCommunication.Core.Net.NetworkXBase.SendBytesAsync(AppSession session, Byte[] content)
+错误类型：System.NullReferenceException
+错误方法：Void SendBytesAsync(HslCommunication.Core.Net.AppSession, Byte[])
+/=================================================[    Exception    ]================================================/
+[致命] 2022-03-17 13:32:53.532 thread:[12] NetComplexClient : 同步数据发送异常： : 错误信息：未将对象引用设置到对象的实例。
+错误源：HslCommunication
+错误堆栈：   在 HslCommunication.Core.Net.NetworkXBase.SendBytesAsync(AppSession session, Byte[] content)
+错误类型：System.NullReferenceException
+错误方法：Void SendBytesAsync(HslCommunication.Core.Net.AppSession, Byte[])
+/=================================================[    Exception    ]================================================/
+[致命] 2022-03-17 13:32:53.626 thread:[09] NetComplexClient : 错误信息：由于目标计算机积极拒绝，无法连接。 127.0.0.1:17652
+错误源：System
+错误堆栈：   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 HslCommunication.Core.Net.NetworkBase.ConnectCallBack(IAsyncResult ar)
+错误类型：System.Net.Sockets.SocketException
+错误方法：Void InternalEndConnect(System.IAsyncResult)
+/=================================================[    Exception    ]================================================/
+[调试] 2022-03-17 13:32:53.626 thread:[11] NetComplexClient : Connected Failed, Times: 1
+[致命] 2022-03-17 13:32:54.548 thread:[12] NetComplexClient : 同步数据发送异常： : 错误信息：未将对象引用设置到对象的实例。
+错误源：HslCommunication
+错误堆栈：   在 HslCommunication.Core.Net.NetworkXBase.SendBytesAsync(AppSession session, Byte[] content)
+错误类型：System.NullReferenceException
+错误方法：Void SendBytesAsync(HslCommunication.Core.Net.AppSession, Byte[])
+/=================================================[    Exception    ]================================================/
+[致命] 2022-03-17 13:32:55.564 thread:[12] NetComplexClient : 同步数据发送异常： : 错误信息：未将对象引用设置到对象的实例。
+错误源：HslCommunication
+错误堆栈：   在 HslCommunication.Core.Net.NetworkXBase.SendBytesAsync(AppSession session, Byte[] content)
+错误类型：System.NullReferenceException
+错误方法：Void SendBytesAsync(HslCommunication.Core.Net.AppSession, Byte[])
+/=================================================[    Exception    ]================================================/
+[调试] 2022-03-17 13:32:56.314 thread:[01] NetComplexClient : Client Close.
+[致命] 2022-03-17 13:38:41.313 thread:[12] NetComplexClient : 同步数据发送异常： : 错误信息：未将对象引用设置到对象的实例。
+错误源：HslCommunication
+错误堆栈：   在 HslCommunication.Core.Net.NetworkXBase.SendBytesAsync(AppSession session, Byte[] content)
+错误类型：System.NullReferenceException
+错误方法：Void SendBytesAsync(HslCommunication.Core.Net.AppSession, Byte[])
+/=================================================[    Exception    ]================================================/
+[致命] 2022-03-17 13:38:42.329 thread:[12] NetComplexClient : 同步数据发送异常： : 错误信息：未将对象引用设置到对象的实例。
+错误源：HslCommunication
+错误堆栈：   在 HslCommunication.Core.Net.NetworkXBase.SendBytesAsync(AppSession session, Byte[] content)
+错误类型：System.NullReferenceException
+错误方法：Void SendBytesAsync(HslCommunication.Core.Net.AppSession, Byte[])
+/=================================================[    Exception    ]================================================/
+[致命] 2022-03-17 13:38:42.376 thread:[10] NetComplexClient : 错误信息：由于目标计算机积极拒绝，无法连接。 127.0.0.1:17652
+错误源：System
+错误堆栈：   在 System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   在 System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   在 HslCommunication.Core.Net.NetworkBase.ConnectCallBack(IAsyncResult ar)
+错误类型：System.Net.Sockets.SocketException
+错误方法：Void InternalEndConnect(System.IAsyncResult)
+/=================================================[    Exception    ]================================================/
+[调试] 2022-03-17 13:38:42.376 thread:[11] NetComplexClient : Connected Failed, Times: 1
+[致命] 2022-03-17 13:38:43.345 thread:[12] NetComplexClient : 同步数据发送异常： : 错误信息：未将对象引用设置到对象的实例。
+错误源：HslCommunication
+错误堆栈：   在 HslCommunication.Core.Net.NetworkXBase.SendBytesAsync(AppSession session, Byte[] content)
+错误类型：System.NullReferenceException
+错误方法：Void SendBytesAsync(HslCommunication.Core.Net.AppSession, Byte[])
+/=================================================[    Exception    ]================================================/
+[致命] 2022-03-17 13:38:44.360 thread:[12] NetComplexClient : 同步数据发送异常： : 错误信息：未将对象引用设置到对象的实例。
+错误源：HslCommunication
+错误堆栈：   在 HslCommunication.Core.Net.NetworkXBase.SendBytesAsync(AppSession session, Byte[] content)
+错误类型：System.NullReferenceException
+错误方法：Void SendBytesAsync(HslCommunication.Core.Net.AppSession, Byte[])
+/=================================================[    Exception    ]================================================/
+[致命] 2022-03-17 13:38:45.376 thread:[12] NetComplexClient : 同步数据发送异常： : 错误信息：未将对象引用设置到对象的实例。
+错误源：HslCommunication
+错误堆栈：   在 HslCommunication.Core.Net.NetworkXBase.SendBytesAsync(AppSession session, Byte[] content)
+错误类型：System.NullReferenceException
+错误方法：Void SendBytesAsync(HslCommunication.Core.Net.AppSession, Byte[])
+/=================================================[    Exception    ]================================================/
+[调试] 2022-03-17 13:38:46.298 thread:[01] NetComplexClient : Client Close.
